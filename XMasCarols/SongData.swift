@@ -14,7 +14,7 @@ struct Song {
     let id: Int
     
     
-    let songs: [Song] = [Song(name: "We Wish You a Merry Christmas", lyrics:
+    static let songs: [Song] = [Song(name: "We Wish You a Merry Christmas", lyrics:
         """
 We wish you a Merry Christmas
 We wish you a Merry Christmas
@@ -49,6 +49,7 @@ We wish you a Merry Christmas
 We wish you a Merry Christmas
 We wish you a Merry Christmas and a Happy New Year!
 """, id: 0),
-    Song(name: "Deck the Halls", lyrics: <#T##String#>, id: <#T##Int#>)
-    
+    Song(name: "Deck the Halls", lyrics: "", id: 1),
+    Song(name: "Song 3", lyrics: "", id: 2)
+    ]
 }
