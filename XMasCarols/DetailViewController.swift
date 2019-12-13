@@ -26,6 +26,7 @@ class DetailViewController: UIViewController {
             fatalError("Error: Couldn't pull Song, check prepare for segue")
         }
         lyricText.text = detailVCSong.lyrics
+        navigationItem.title = detailVCSong.name
     }
 
 
