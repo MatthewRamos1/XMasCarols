@@ -11,6 +11,7 @@ import UIKit
 class DetailViewController: UIViewController {
     
     @IBOutlet weak var lyricText: UITextView!
+    @IBOutlet weak var imageView: UIImageView!
     
     var song: Song?
 
@@ -27,6 +28,12 @@ class DetailViewController: UIViewController {
         }
         lyricText.text = detailVCSong.lyrics
         navigationItem.title = detailVCSong.name
+        switch detailVCSong.id {
+        case 0:
+            imageView.image = UIImage(named: "0")
+        default:
+            return
+        }
     }
 
 

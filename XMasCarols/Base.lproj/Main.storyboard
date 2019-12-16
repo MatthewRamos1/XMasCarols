@@ -76,13 +76,23 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GiG-Ln-CYY">
+                                <rect key="frame" x="0.0" y="140" width="414" height="756"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="GiG-Ln-CYY" firstAttribute="leading" secondItem="bdz-Sh-bCK" secondAttribute="leading" id="8ZP-fj-Tdl"/>
+                            <constraint firstItem="GiG-Ln-CYY" firstAttribute="top" secondItem="bdz-Sh-bCK" secondAttribute="top" id="C2i-XP-kyG"/>
+                            <constraint firstItem="GiG-Ln-CYY" firstAttribute="trailing" secondItem="bdz-Sh-bCK" secondAttribute="trailing" id="S9v-bT-IJT"/>
+                            <constraint firstAttribute="bottom" secondItem="GiG-Ln-CYY" secondAttribute="bottom" id="VKl-rn-oVf"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="bdz-Sh-bCK"/>
                     </view>
                     <navigationItem key="navigationItem" id="vxn-4A-6qr"/>
                     <connections>
-                        <outlet property="lyricText" destination="feB-GZ-PVS" id="Be4-jb-sQ5"/>
+                        <outlet property="imageView" destination="GiG-Ln-CYY" id="XSe-vx-nmC"/>
+                        <outlet property="lyricText" destination="feB-GZ-PVS" id="DpD-BU-1uO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y0A-2p-SZ9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
