@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C5E325E23BC48F800705DD8 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E325D23BC48F800705DD8 /* CustomCell.swift */; };
 		0CBAC7F423A3242900B705B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAC7F323A3242900B705B9 /* AppDelegate.swift */; };
 		0CBAC7F623A3242900B705B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAC7F523A3242900B705B9 /* SceneDelegate.swift */; };
 		0CBAC7F823A3242900B705B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAC7F723A3242900B705B9 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C5E325D23BC48F800705DD8 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		0CBAC7F023A3242900B705B9 /* XMasCarols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMasCarols.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CBAC7F323A3242900B705B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CBAC7F523A3242900B705B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				0CBAC7F723A3242900B705B9 /* ViewController.swift */,
 				0CBAC80923A3281200B705B9 /* DetailViewController.swift */,
 				0CBAC7F923A3242900B705B9 /* Main.storyboard */,
+				0C5E325D23BC48F800705DD8 /* CustomCell.swift */,
 				0CBAC7FC23A3242C00B705B9 /* Assets.xcassets */,
 				0CBAC7FE23A3242C00B705B9 /* LaunchScreen.storyboard */,
 				0CBAC80123A3242C00B705B9 /* Info.plist */,
@@ -148,6 +151,7 @@
 				0CBAC7F423A3242900B705B9 /* AppDelegate.swift in Sources */,
 				0CBAC80A23A3281200B705B9 /* DetailViewController.swift in Sources */,
 				0CBAC80823A324BE00B705B9 /* SongData.swift in Sources */,
+				0C5E325E23BC48F800705DD8 /* CustomCell.swift in Sources */,
 				0CBAC7F623A3242900B705B9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
