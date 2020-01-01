@@ -32,7 +32,7 @@ class DetailViewController: UIViewController {
         case 0:
             imageView.image = UIImage(named: "0")
         default:
-            return
+            imageView.image = UIImage(systemName: "exclaimationmark.triangle")
         }
     }
 

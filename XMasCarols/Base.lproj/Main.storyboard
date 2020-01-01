@@ -19,7 +19,7 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="songCell" rowHeight="86" id="g8S-hD-rLD">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="songCell" rowHeight="86" id="g8S-hD-rLD" customClass="SongCell" customModule="XMasCarols" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="86"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="g8S-hD-rLD" id="m6Z-4a-2Ls">
@@ -46,6 +46,8 @@
                                             <constraint firstItem="9RD-qi-nN9" firstAttribute="centerY" secondItem="g8S-hD-rLD" secondAttribute="centerY" id="wxB-OU-FT2"/>
                                         </constraints>
                                         <connections>
+                                            <outlet property="songBackground" destination="HPm-zQ-5mL" id="v9R-dw-OWe"/>
+                                            <outlet property="songNameLabel" destination="9RD-qi-nN9" id="aon-0K-oAl"/>
                                             <segue destination="8ds-oK-4Cq" kind="show" id="1WE-A4-oCv"/>
                                         </connections>
                                     </tableViewCell>
