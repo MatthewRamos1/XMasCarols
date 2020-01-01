@@ -35,9 +35,11 @@ extension ViewController: UITableViewDataSource {
         songs.count
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "songCell", for: indexPath)
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "songCell", for: indexPath) as? SongCell else {
+            fatalError("Error: Couldn't load custom cell SongCell")
+        }
         let song = songs[indexPath.row]
-        cell.textLabel?.text = song.name
+        cell.configureCell(song: song)
         return cell
     }
 }
