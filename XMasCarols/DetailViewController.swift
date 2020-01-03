@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class DetailViewController: UIViewController {
     
@@ -14,12 +15,27 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     
     var song: Song?
+    var backgroundPlayer = AVAudioPlayer()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         updateUI()
+        playSaveSound()
 
    
+    }
+    
+    func playSaveSound(){
+        let path = Bundle.main.path(forResource: "06 LP V1 - Shoulda Left You (jl1A 12-17) (MASTERED DK).wav", ofType: nil)!
+        let url = URL(fileURLWithPath: path)
+
+        do {
+            //create your audioPlayer in your parent class as a property
+            backgroundPlayer = try AVAudioPlayer(contentsOf: url)
+            backgroundPlayer.play()
+        } catch {
+            print("couldn't load the file")
+        }
     }
     
     func updateUI(){
