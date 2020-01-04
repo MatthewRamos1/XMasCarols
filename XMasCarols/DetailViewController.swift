@@ -20,12 +20,11 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         updateUI()
-        playSaveSound()
 
    
     }
     
-    func playSaveSound(){
+    func playBackgroundCarol(){
         guard let path = Bundle.main.path(forResource: "06 Frosty The Snowman final.mp3", ofType: nil) else {
             print("Couldn't play song")
             return
@@ -33,7 +32,6 @@ class DetailViewController: UIViewController {
         let url = URL(fileURLWithPath: path)
 
         do {
-            //create your audioPlayer in your parent class as a property
             backgroundPlayer = try AVAudioPlayer(contentsOf: url)
             backgroundPlayer.play()
         } catch {
@@ -50,6 +48,9 @@ class DetailViewController: UIViewController {
         switch detailVCSong.id {
         case 0:
             imageView.image = UIImage(named: "0")
+        case 2:
+            playBackgroundCarol()
+            imageView.image = UIImage(systemName: "exclaimationmark.triangle")
         default:
             imageView.image = UIImage(systemName: "exclaimationmark.triangle")
         }
