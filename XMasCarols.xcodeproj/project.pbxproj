@@ -11,6 +11,7 @@
 		0C5F1CE323BFEC150032FAEA /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5F1CE223BFEC150032FAEA /* NetworkHelper.swift */; };
 		0C5F1CE523BFEC3C0032FAEA /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5F1CE423BFEC3C0032FAEA /* AppError.swift */; };
 		0C5F1CEB23BFFA220032FAEA /* 06 Frosty The Snowman final.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0C5F1CEA23BFFA220032FAEA /* 06 Frosty The Snowman final.mp3 */; };
+		0C5F1CED23C1555D0032FAEA /* SongFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5F1CEC23C1555D0032FAEA /* SongFile.swift */; };
 		0CBAC7F423A3242900B705B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAC7F323A3242900B705B9 /* AppDelegate.swift */; };
 		0CBAC7F623A3242900B705B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAC7F523A3242900B705B9 /* SceneDelegate.swift */; };
 		0CBAC7F823A3242900B705B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAC7F723A3242900B705B9 /* ViewController.swift */; };
@@ -26,6 +27,7 @@
 		0C5F1CE223BFEC150032FAEA /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		0C5F1CE423BFEC3C0032FAEA /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		0C5F1CEA23BFFA220032FAEA /* 06 Frosty The Snowman final.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "06 Frosty The Snowman final.mp3"; sourceTree = "<group>"; };
+		0C5F1CEC23C1555D0032FAEA /* SongFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongFile.swift; sourceTree = "<group>"; };
 		0CBAC7F023A3242900B705B9 /* XMasCarols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMasCarols.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CBAC7F323A3242900B705B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CBAC7F523A3242900B705B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 			children = (
 				0CBAC7F323A3242900B705B9 /* AppDelegate.swift */,
 				0CBAC7F523A3242900B705B9 /* SceneDelegate.swift */,
+				0C5F1CEC23C1555D0032FAEA /* SongFile.swift */,
 				0CBAC80723A324BE00B705B9 /* SongData.swift */,
 				0C5E325F23BC4A1E00705DD8 /* SongCell.swift */,
 				0CBAC7F723A3242900B705B9 /* ViewController.swift */,
@@ -178,6 +181,7 @@
 				0CBAC7F423A3242900B705B9 /* AppDelegate.swift in Sources */,
 				0CBAC80A23A3281200B705B9 /* DetailViewController.swift in Sources */,
 				0C5F1CE523BFEC3C0032FAEA /* AppError.swift in Sources */,
+				0C5F1CED23C1555D0032FAEA /* SongFile.swift in Sources */,
 				0CBAC80823A324BE00B705B9 /* SongData.swift in Sources */,
 				0C5E326023BC4A1E00705DD8 /* SongCell.swift in Sources */,
 				0CBAC7F623A3242900B705B9 /* SceneDelegate.swift in Sources */,

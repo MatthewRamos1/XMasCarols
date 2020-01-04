@@ -24,8 +24,8 @@ class DetailViewController: UIViewController {
    
     }
     
-    func playBackgroundCarol(){
-        guard let path = Bundle.main.path(forResource: "06 Frosty The Snowman final.mp3", ofType: nil) else {
+    func playBackgroundCarol(songFile: SongFile) {
+        guard let path = Bundle.main.path(forResource: songFile.rawValue, ofType: nil) else {
             print("Couldn't play song")
             return
         }
@@ -49,7 +49,7 @@ class DetailViewController: UIViewController {
         case 0:
             imageView.image = UIImage(named: "0")
         case 2:
-            playBackgroundCarol()
+            playBackgroundCarol(songFile: SongFile.frosty)
             imageView.image = UIImage(systemName: "exclaimationmark.triangle")
         default:
             imageView.image = UIImage(systemName: "exclaimationmark.triangle")
