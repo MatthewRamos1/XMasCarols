@@ -26,7 +26,10 @@ class DetailViewController: UIViewController {
     }
     
     func playSaveSound(){
-        let path = Bundle.main.path(forResource: "06 LP V1 - Shoulda Left You (jl1A 12-17) (MASTERED DK).wav", ofType: nil)!
+        guard let path = Bundle.main.path(forResource: "06 Frosty The Snowman final.mp3", ofType: nil) else {
+            print("Couldn't play song")
+            return
+        }
         let url = URL(fileURLWithPath: path)
 
         do {
