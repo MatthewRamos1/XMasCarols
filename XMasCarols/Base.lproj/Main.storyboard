@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Caroling Songs-->
+        <!--Local Songs-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="XMasCarols" customModuleProvider="target" sceneMemberID="viewController">
@@ -16,10 +16,41 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0l6-X2-4Zo">
-                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <rect key="frame" x="0.0" y="140" width="414" height="756"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="0l6-X2-4Zo" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="3ef-Mq-cb7"/>
+                            <constraint firstItem="0l6-X2-4Zo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6qM-gt-P5s"/>
+                            <constraint firstAttribute="bottom" secondItem="0l6-X2-4Zo" secondAttribute="bottom" id="Xk7-To-Pya"/>
+                            <constraint firstItem="0l6-X2-4Zo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="zC4-Fg-lvb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Local Songs" id="hBh-zz-WV1"/>
+                    <connections>
+                        <outlet property="tableView" destination="0l6-X2-4Zo" id="PlQ-nz-95W"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1957.9710144927537" y="116.51785714285714"/>
+        </scene>
+        <!--Internet Selection-->
+        <scene sceneID="3vF-m7-HbO">
+            <objects>
+                <viewController id="yKD-R3-fnf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="r0m-if-T67">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="grH-Mg-SqQ">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="songCell" rowHeight="86" id="g8S-hD-rLD" customClass="SongCell" customModule="XMasCarols" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="internetCell" rowHeight="86" id="g8S-hD-rLD" customClass="SongCell" customModule="XMasCarols" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="86"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="g8S-hD-rLD" id="m6Z-4a-2Ls">
@@ -56,37 +87,18 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="0l6-X2-4Zo" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="3ef-Mq-cb7"/>
-                            <constraint firstItem="0l6-X2-4Zo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6qM-gt-P5s"/>
-                            <constraint firstAttribute="bottom" secondItem="0l6-X2-4Zo" secondAttribute="bottom" id="Xk7-To-Pya"/>
-                            <constraint firstItem="0l6-X2-4Zo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="zC4-Fg-lvb"/>
+                            <constraint firstItem="grH-Mg-SqQ" firstAttribute="bottom" secondItem="cl4-v6-DTt" secondAttribute="bottom" id="IUA-iM-3iY"/>
+                            <constraint firstItem="grH-Mg-SqQ" firstAttribute="top" secondItem="cl4-v6-DTt" secondAttribute="top" id="TLA-zg-nV2"/>
+                            <constraint firstItem="grH-Mg-SqQ" firstAttribute="trailing" secondItem="cl4-v6-DTt" secondAttribute="trailing" id="acm-Ih-5uH"/>
+                            <constraint firstItem="grH-Mg-SqQ" firstAttribute="leading" secondItem="cl4-v6-DTt" secondAttribute="leading" id="wor-gs-6xP"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Caroling Songs" id="hBh-zz-WV1"/>
-                    <connections>
-                        <outlet property="tableView" destination="0l6-X2-4Zo" id="PlQ-nz-95W"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1957.9710144927537" y="116.51785714285714"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="3vF-m7-HbO">
-            <objects>
-                <viewController id="yKD-R3-fnf" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="r0m-if-T67">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="cl4-v6-DTt"/>
                     </view>
-                    <navigationItem key="navigationItem" id="JJ9-KA-Umw"/>
+                    <navigationItem key="navigationItem" title="Internet Selection" id="JJ9-KA-Umw"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NbE-B1-D9e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1958" y="982"/>
+            <point key="canvasLocation" x="1957.9710144927537" y="981.69642857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Kh4-Y0-biL">
@@ -98,6 +110,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Vkp-hk-ook"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Eqs-iU-8Sc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="brl-wF-QmA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -185,8 +198,8 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="V5a-EP-RMj" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Browse Internet" image="globe" catalog="system" id="pRo-n1-s9g"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rAS-kT-4pY">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="rAS-kT-4pY">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
