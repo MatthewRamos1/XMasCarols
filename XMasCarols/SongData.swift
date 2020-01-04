@@ -78,6 +78,12 @@ We wish you a Merry Christmas and a Happy New Year!
         Heedless of the wind and weather
         Fa-la-la-la-la, la-la-la-la
         """, id: 1),
-    Song(name: "Song 3", lyrics: "", id: 2)
+    Song(name: "Song 3", lyrics: "", id: 2),
+    Song(name: "", lyrics: "", id: 3),
+    Song(name: "", lyrics: "", id: 4),
+    Song(name: "", lyrics: "", id: 5),
+    Song(name: "", lyrics: "", id: 6),
+    Song(name: "", lyrics: "", id: 7),
+    Song(name: "", lyrics: "", id: 8),
     ]
 }
