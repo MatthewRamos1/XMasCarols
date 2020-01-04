@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
+        tableView.delegate = self
         songs = Song.songs
        
     }
@@ -41,5 +42,11 @@ extension ViewController: UITableViewDataSource {
         let song = songs[indexPath.row]
         cell.configureCell(song: song)
         return cell
+    }
+}
+
+extension ViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        160
     }
 }
