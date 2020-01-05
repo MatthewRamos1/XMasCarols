@@ -13,6 +13,7 @@
 		0C5F1CEB23BFFA220032FAEA /* 06 Frosty The Snowman final.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0C5F1CEA23BFFA220032FAEA /* 06 Frosty The Snowman final.mp3 */; };
 		0C5F1CED23C1555D0032FAEA /* SongFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5F1CEC23C1555D0032FAEA /* SongFile.swift */; };
 		0C5F1CEF23C157690032FAEA /* 04 Have Yourself a Merry Little Christmas final.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0C5F1CEE23C157690032FAEA /* 04 Have Yourself a Merry Little Christmas final.mp3 */; };
+		0C5F1CF123C196940032FAEA /* O Holy Night final.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0C5F1CF023C196940032FAEA /* O Holy Night final.mp3 */; };
 		0CBAC7F423A3242900B705B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAC7F323A3242900B705B9 /* AppDelegate.swift */; };
 		0CBAC7F623A3242900B705B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAC7F523A3242900B705B9 /* SceneDelegate.swift */; };
 		0CBAC7F823A3242900B705B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAC7F723A3242900B705B9 /* ViewController.swift */; };
@@ -30,6 +31,7 @@
 		0C5F1CEA23BFFA220032FAEA /* 06 Frosty The Snowman final.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "06 Frosty The Snowman final.mp3"; sourceTree = "<group>"; };
 		0C5F1CEC23C1555D0032FAEA /* SongFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongFile.swift; sourceTree = "<group>"; };
 		0C5F1CEE23C157690032FAEA /* 04 Have Yourself a Merry Little Christmas final.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "04 Have Yourself a Merry Little Christmas final.mp3"; sourceTree = "<group>"; };
+		0C5F1CF023C196940032FAEA /* O Holy Night final.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "O Holy Night final.mp3"; sourceTree = "<group>"; };
 		0CBAC7F023A3242900B705B9 /* XMasCarols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMasCarols.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CBAC7F323A3242900B705B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CBAC7F523A3242900B705B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 			children = (
 				0C5F1CEA23BFFA220032FAEA /* 06 Frosty The Snowman final.mp3 */,
 				0C5F1CEE23C157690032FAEA /* 04 Have Yourself a Merry Little Christmas final.mp3 */,
+				0C5F1CF023C196940032FAEA /* O Holy Night final.mp3 */,
 			);
 			path = Songs;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				0CBAC7FD23A3242C00B705B9 /* Assets.xcassets in Resources */,
 				0C5F1CEF23C157690032FAEA /* 04 Have Yourself a Merry Little Christmas final.mp3 in Resources */,
 				0CBAC7FB23A3242900B705B9 /* Main.storyboard in Resources */,
+				0C5F1CF123C196940032FAEA /* O Holy Night final.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

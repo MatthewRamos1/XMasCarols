@@ -11,4 +11,5 @@ import Foundation
 enum SongFile: String{
     case frosty = "06 Frosty The Snowman final.mp3"
     case merryLilXmas = "04 Have Yourself a Merry Little Christmas final.mp3"
+    case holyNight = "O Holy Night final.mp3"
 }
