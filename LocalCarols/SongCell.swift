@@ -23,4 +23,8 @@ class SongCell: UITableViewCell {
             songBackground.image = UIImage(systemName: "exclaimationmark.triangle")
         }
     }
+    
+    func configureOnlineCell(song: OnlineSong) {
+        songNameLabel.text = song.trackName
+    }
 }

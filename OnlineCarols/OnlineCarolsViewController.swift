@@ -12,7 +12,7 @@ class OnlineCarolsViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
-    var carols = [OnlineSong]()
+    var songs = [OnlineSong]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,12 +23,15 @@ class OnlineCarolsViewController: UIViewController {
 
 extension OnlineCarolsViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        carols.count
+        songs.count
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "onlineCell", for: indexPath)
-        
-        
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "onlineCell", for: indexPath) as? SongCell else {
+            fatalError("Error: Couldn't load custom cell SongCell")
+        }
+        let song = songs[indexPath.row]
+        cell.configureOnlineCell(song: song)
+        return cell
     }
 }
 
