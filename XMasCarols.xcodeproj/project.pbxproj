@@ -19,6 +19,7 @@
 		0C5F1CFC23C2CD560032FAEA /* OnlineCarolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5F1CFB23C2CD560032FAEA /* OnlineCarolsViewController.swift */; };
 		0C5F1CFE23C2CD780032FAEA /* OCDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5F1CFD23C2CD780032FAEA /* OCDetailViewController.swift */; };
 		0C5F1D0323C2DAB80032FAEA /* UIViewController + Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5F1D0223C2DAB80032FAEA /* UIViewController + Alerts.swift */; };
+		0C5F1D0523C2E10B0032FAEA /* Santa Claus to tow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C5F1D0423C2E10B0032FAEA /* Santa Claus to tow.wav */; };
 		0CBAC7F423A3242900B705B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAC7F323A3242900B705B9 /* AppDelegate.swift */; };
 		0CBAC7F623A3242900B705B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAC7F523A3242900B705B9 /* SceneDelegate.swift */; };
 		0CBAC7F823A3242900B705B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAC7F723A3242900B705B9 /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 		0C5F1CFB23C2CD560032FAEA /* OnlineCarolsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineCarolsViewController.swift; sourceTree = "<group>"; };
 		0C5F1CFD23C2CD780032FAEA /* OCDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCDetailViewController.swift; sourceTree = "<group>"; };
 		0C5F1D0223C2DAB80032FAEA /* UIViewController + Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Alerts.swift"; sourceTree = "<group>"; };
+		0C5F1D0423C2E10B0032FAEA /* Santa Claus to tow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Santa Claus to tow.wav"; sourceTree = "<group>"; };
 		0CBAC7F023A3242900B705B9 /* XMasCarols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMasCarols.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CBAC7F323A3242900B705B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CBAC7F523A3242900B705B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				0C5F1CEA23BFFA220032FAEA /* 06 Frosty The Snowman final.mp3 */,
 				0C5F1CEE23C157690032FAEA /* 04 Have Yourself a Merry Little Christmas final.mp3 */,
 				0C5F1CF023C196940032FAEA /* O Holy Night final.mp3 */,
+				0C5F1D0423C2E10B0032FAEA /* Santa Claus to tow.wav */,
 			);
 			path = Songs;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			files = (
 				0C5F1CEB23BFFA220032FAEA /* 06 Frosty The Snowman final.mp3 in Resources */,
 				0CBAC80023A3242C00B705B9 /* LaunchScreen.storyboard in Resources */,
+				0C5F1D0523C2E10B0032FAEA /* Santa Claus to tow.wav in Resources */,
 				0CBAC7FD23A3242C00B705B9 /* Assets.xcassets in Resources */,
 				0C5F1CEF23C157690032FAEA /* 04 Have Yourself a Merry Little Christmas final.mp3 in Resources */,
 				0CBAC7FB23A3242900B705B9 /* Main.storyboard in Resources */,

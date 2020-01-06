@@ -174,7 +174,62 @@ Until then we'll have to muddle through somehow
 
 So have yourself a merry little Christmas now
 """, id: 4),
-    Song(name: "", lyrics: "", id: 5),
+    Song(name: "Santa Claus is Coming to Town", lyrics: """
+You better watch out
+You better not cry
+You better not pout
+I'm telling you why, Santa Claus is coming to town
+He's making a list
+He's checking it twice
+He's going to find out
+Who's naughty and nice, Santa Claus is coming to town
+
+He sees you when you're sleeping
+He knows when you're awake
+He knows when you've been bad or good
+So be good for goodness sake
+
+You better watch out
+You better not cry
+You better not pout
+I'm telling you why, Santa Claus is coming to town
+You better watch out
+You better not cry
+You better not pout
+I'm telling you why, Santa Claus is coming to town
+He's making a list
+He's checking it twice
+He's going to find out
+Who's naughty and nice, Santa Claus is coming to town
+
+He sees you when you're sleeping
+He knows when you're awake
+He knows when you've been bad or good
+So be good for goodness sake
+
+You better watch out
+You better not cry
+You better not pout
+I'm telling you why, Santa Claus is coming to town
+
+He sees you when you're sleeping
+He knows when you're awake
+He knows when you've been bad or good
+So be good for goodness sake
+
+You better watch out
+You better not cry
+You better not pout
+I'm telling you why, Santa Claus is coming to town
+He's making a list
+And checking it twice
+He's going to find out
+Who's naughty and nice, Santa Claus is coming
+Santa Claus is coming, Santa Claus is coming to town
+Santa Claus is coming to town
+Santa Claus is coming to town
+Santa Claus is coming to town
+""", id: 5),
     Song(name: "", lyrics: "", id: 6),
     Song(name: "", lyrics: "", id: 7),
     Song(name: "", lyrics: "", id: 8),
