@@ -12,19 +12,29 @@ class OnlineCarolsViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
-    var songs = [OnlineSong]()
+    var songs = [OnlineSong]() {
+        didSet{
+            DispatchQueue.main.async {
+                self.tableView.reloadData()
+            }
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
-        songs = MusicAPIClient.fetchCarols(completion: { [weak self] result in
+        MusicAPIClient.fetchCarols(completion: { [weak self] result in
             switch result {
             case .failure(let appError):
-                
-                
-                
+                DispatchQueue.main.async {
+                    self?.showAlert(title: "Error: Could not read data", message: "\(appError)")
+                }
+            case .success(let data):
+                self?.songs = data
             }
         }
+        )
+        print(songs)
     }
 
 }

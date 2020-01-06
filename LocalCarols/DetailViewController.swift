@@ -48,13 +48,17 @@ class DetailViewController: UIViewController {
         switch detailVCSong.id {
         case 0:
             imageView.image = UIImage(named: "0")
+        case 1:
+            imageView.image = UIImage(named: "1")
         case 2:
             playBackgroundCarol(songFile: SongFile.frosty)
-            imageView.image = UIImage(systemName: "exclaimationmark.triangle")
+            imageView.image = UIImage(named: "2")
         case 3:
             playBackgroundCarol(songFile: SongFile.holyNight)
+            imageView.image = UIImage(named: "0")
         case 4:
             playBackgroundCarol(songFile: SongFile.merryLilXmas)
+            imageView.image = UIImage(named: "1")
         default:
             imageView.image = UIImage(systemName: "exclaimationmark.triangle")
         }
