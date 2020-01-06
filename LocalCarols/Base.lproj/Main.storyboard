@@ -75,7 +75,7 @@
         <!--Internet Selection-->
         <scene sceneID="3vF-m7-HbO">
             <objects>
-                <viewController id="yKD-R3-fnf" sceneMemberID="viewController">
+                <viewController id="yKD-R3-fnf" customClass="OnlineCarolsViewController" customModule="XMasCarols" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="r0m-if-T67">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -84,7 +84,7 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="internetCell" rowHeight="86" id="aLe-eC-bGM" customClass="SongCell" customModule="XMasCarols" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="onlineCell" rowHeight="86" id="aLe-eC-bGM" customClass="SongCell" customModule="XMasCarols" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="86"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aLe-eC-bGM" id="LmD-q3-imp">
@@ -113,6 +113,7 @@
                                         <connections>
                                             <outlet property="songBackground" destination="3f0-wB-lL6" id="Dg2-dH-6nr"/>
                                             <outlet property="songNameLabel" destination="Ud1-c4-7Af" id="MRb-44-0yL"/>
+                                            <segue destination="VeO-qu-BhA" kind="show" id="0Uh-mK-s6W"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -128,15 +129,18 @@
                         <viewLayoutGuide key="safeArea" id="cl4-v6-DTt"/>
                     </view>
                     <navigationItem key="navigationItem" title="Internet Selection" id="JJ9-KA-Umw"/>
+                    <connections>
+                        <outlet property="tableView" destination="grH-Mg-SqQ" id="aPT-R9-OzI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NbE-B1-D9e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1957.9710144927537" y="981.69642857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="Kh4-Y0-biL">
             <objects>
-                <viewController id="VeO-qu-BhA" sceneMemberID="viewController">
+                <viewController id="VeO-qu-BhA" customClass="OCDetailViewController" customModule="XMasCarols" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iOw-vs-DYt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -213,6 +217,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="sl6-d2-yk1" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LUd-cO-do5">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
