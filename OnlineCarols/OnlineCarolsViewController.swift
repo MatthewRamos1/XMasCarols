@@ -17,6 +17,14 @@ class OnlineCarolsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
+        songs = MusicAPIClient.fetchCarols(completion: { [weak self] result in
+            switch result {
+            case .failure(let appError):
+                
+                
+                
+            }
+        }
     }
 
 }
