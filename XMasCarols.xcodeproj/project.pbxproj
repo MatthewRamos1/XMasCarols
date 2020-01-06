@@ -14,6 +14,9 @@
 		0C5F1CED23C1555D0032FAEA /* SongFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5F1CEC23C1555D0032FAEA /* SongFile.swift */; };
 		0C5F1CEF23C157690032FAEA /* 04 Have Yourself a Merry Little Christmas final.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0C5F1CEE23C157690032FAEA /* 04 Have Yourself a Merry Little Christmas final.mp3 */; };
 		0C5F1CF123C196940032FAEA /* O Holy Night final.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0C5F1CF023C196940032FAEA /* O Holy Night final.mp3 */; };
+		0C5F1CF323C199170032FAEA /* MusicAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5F1CF223C199170032FAEA /* MusicAPIClient.swift */; };
+		0C5F1CF523C199390032FAEA /* iTunesSongData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5F1CF423C199390032FAEA /* iTunesSongData.swift */; };
+		0C5F1CF723C2C9F30032FAEA /* OnlineSongData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5F1CF623C2C9F30032FAEA /* OnlineSongData.swift */; };
 		0CBAC7F423A3242900B705B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAC7F323A3242900B705B9 /* AppDelegate.swift */; };
 		0CBAC7F623A3242900B705B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAC7F523A3242900B705B9 /* SceneDelegate.swift */; };
 		0CBAC7F823A3242900B705B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAC7F723A3242900B705B9 /* ViewController.swift */; };
@@ -32,6 +35,9 @@
 		0C5F1CEC23C1555D0032FAEA /* SongFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongFile.swift; sourceTree = "<group>"; };
 		0C5F1CEE23C157690032FAEA /* 04 Have Yourself a Merry Little Christmas final.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "04 Have Yourself a Merry Little Christmas final.mp3"; sourceTree = "<group>"; };
 		0C5F1CF023C196940032FAEA /* O Holy Night final.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "O Holy Night final.mp3"; sourceTree = "<group>"; };
+		0C5F1CF223C199170032FAEA /* MusicAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAPIClient.swift; sourceTree = "<group>"; };
+		0C5F1CF423C199390032FAEA /* iTunesSongData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesSongData.swift; sourceTree = "<group>"; };
+		0C5F1CF623C2C9F30032FAEA /* OnlineSongData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineSongData.swift; sourceTree = "<group>"; };
 		0CBAC7F023A3242900B705B9 /* XMasCarols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMasCarols.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CBAC7F323A3242900B705B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CBAC7F523A3242900B705B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +66,7 @@
 			children = (
 				0C5F1CE223BFEC150032FAEA /* NetworkHelper.swift */,
 				0C5F1CE423BFEC3C0032FAEA /* AppError.swift */,
+				0C5F1CF223C199170032FAEA /* MusicAPIClient.swift */,
 			);
 			path = "Network-Services";
 			sourceTree = "<group>";
@@ -99,7 +106,9 @@
 				0CBAC7F523A3242900B705B9 /* SceneDelegate.swift */,
 				0C5F1CEC23C1555D0032FAEA /* SongFile.swift */,
 				0CBAC80723A324BE00B705B9 /* SongData.swift */,
+				0C5F1CF623C2C9F30032FAEA /* OnlineSongData.swift */,
 				0C5E325F23BC4A1E00705DD8 /* SongCell.swift */,
+				0C5F1CF423C199390032FAEA /* iTunesSongData.swift */,
 				0CBAC7F723A3242900B705B9 /* ViewController.swift */,
 				0CBAC80923A3281200B705B9 /* DetailViewController.swift */,
 				0CBAC7F923A3242900B705B9 /* Main.storyboard */,
@@ -187,6 +196,9 @@
 				0C5F1CE323BFEC150032FAEA /* NetworkHelper.swift in Sources */,
 				0CBAC7F823A3242900B705B9 /* ViewController.swift in Sources */,
 				0CBAC7F423A3242900B705B9 /* AppDelegate.swift in Sources */,
+				0C5F1CF523C199390032FAEA /* iTunesSongData.swift in Sources */,
+				0C5F1CF323C199170032FAEA /* MusicAPIClient.swift in Sources */,
+				0C5F1CF723C2C9F30032FAEA /* OnlineSongData.swift in Sources */,
 				0CBAC80A23A3281200B705B9 /* DetailViewController.swift in Sources */,
 				0C5F1CE523BFEC3C0032FAEA /* AppError.swift in Sources */,
 				0C5F1CED23C1555D0032FAEA /* SongFile.swift in Sources */,
