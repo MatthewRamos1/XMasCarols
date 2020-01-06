@@ -83,7 +83,32 @@
 			path = Songs;
 			sourceTree = "<group>";
 		};
-		0C5F1CF823C2CCA60032FAEA /* OnlineCarols */ = {
+		0C5F1CF823C2CCA60032FAEA /* XMasCarols */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAC7F323A3242900B705B9 /* AppDelegate.swift */,
+				0CBAC80123A3242C00B705B9 /* Info.plist */,
+				0CBAC7FE23A3242C00B705B9 /* LaunchScreen.storyboard */,
+				0CBAC7FC23A3242C00B705B9 /* Assets.xcassets */,
+				0CBAC7F923A3242900B705B9 /* Main.storyboard */,
+				0CBAC7F523A3242900B705B9 /* SceneDelegate.swift */,
+				0C5E325F23BC4A1E00705DD8 /* SongCell.swift */,
+			);
+			path = XMasCarols;
+			sourceTree = "<group>";
+		};
+		0C5F1CFF23C2D1490032FAEA /* LocalCarols */ = {
+			isa = PBXGroup;
+			children = (
+				0C5F1CEC23C1555D0032FAEA /* SongFile.swift */,
+				0CBAC80723A324BE00B705B9 /* SongData.swift */,
+				0CBAC7F723A3242900B705B9 /* ViewController.swift */,
+				0CBAC80923A3281200B705B9 /* DetailViewController.swift */,
+			);
+			path = LocalCarols;
+			sourceTree = "<group>";
+		};
+		0C5F1D0023C2D15A0032FAEA /* OnlineCarols */ = {
 			isa = PBXGroup;
 			children = (
 				0C5F1CF623C2C9F30032FAEA /* OnlineSongData.swift */,
@@ -98,8 +123,9 @@
 			children = (
 				0C5F1CE723BFF7380032FAEA /* Songs */,
 				0C5F1CE623BFEC540032FAEA /* Network-Services */,
-				0CBAC7F223A3242900B705B9 /* LocalCarols */,
-				0C5F1CF823C2CCA60032FAEA /* OnlineCarols */,
+				0C5F1CF823C2CCA60032FAEA /* XMasCarols */,
+				0C5F1CFF23C2D1490032FAEA /* LocalCarols */,
+				0C5F1D0023C2D15A0032FAEA /* OnlineCarols */,
 				0CBAC7F123A3242900B705B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,24 +136,6 @@
 				0CBAC7F023A3242900B705B9 /* XMasCarols.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		0CBAC7F223A3242900B705B9 /* LocalCarols */ = {
-			isa = PBXGroup;
-			children = (
-				0CBAC7F323A3242900B705B9 /* AppDelegate.swift */,
-				0CBAC7F523A3242900B705B9 /* SceneDelegate.swift */,
-				0C5F1CEC23C1555D0032FAEA /* SongFile.swift */,
-				0CBAC80723A324BE00B705B9 /* SongData.swift */,
-				0C5E325F23BC4A1E00705DD8 /* SongCell.swift */,
-				0CBAC7F723A3242900B705B9 /* ViewController.swift */,
-				0CBAC80923A3281200B705B9 /* DetailViewController.swift */,
-				0CBAC7F923A3242900B705B9 /* Main.storyboard */,
-				0CBAC7FC23A3242C00B705B9 /* Assets.xcassets */,
-				0CBAC7FE23A3242C00B705B9 /* LaunchScreen.storyboard */,
-				0CBAC80123A3242C00B705B9 /* Info.plist */,
-			);
-			path = LocalCarols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
