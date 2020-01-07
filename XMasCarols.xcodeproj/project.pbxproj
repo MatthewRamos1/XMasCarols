@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C53711B23C4D701009F3391 /* Ornament-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C53711A23C4D701009F3391 /* Ornament-512.png */; };
 		0C574EFC23C37CD000588BF7 /* OnlineSongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C574EFB23C37CD000588BF7 /* OnlineSongCell.swift */; };
 		0C574EFE23C417D300588BF7 /* UIImageView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C574EFD23C417D300588BF7 /* UIImageView + Extensions.swift */; };
 		0C5E326023BC4A1E00705DD8 /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E325F23BC4A1E00705DD8 /* SongCell.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C53711A23C4D701009F3391 /* Ornament-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ornament-512.png"; sourceTree = "<group>"; };
 		0C574EFB23C37CD000588BF7 /* OnlineSongCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineSongCell.swift; sourceTree = "<group>"; };
 		0C574EFD23C417D300588BF7 /* UIImageView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extensions.swift"; sourceTree = "<group>"; };
 		0C5E325F23BC4A1E00705DD8 /* SongCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				0CBAC7F323A3242900B705B9 /* AppDelegate.swift */,
 				0CBAC80123A3242C00B705B9 /* Info.plist */,
+				0C53711A23C4D701009F3391 /* Ornament-512.png */,
 				0CBAC7FE23A3242C00B705B9 /* LaunchScreen.storyboard */,
 				0CBAC7FC23A3242C00B705B9 /* Assets.xcassets */,
 				0CBAC7F923A3242900B705B9 /* Main.storyboard */,
@@ -220,6 +223,7 @@
 				0CBAC80023A3242C00B705B9 /* LaunchScreen.storyboard in Resources */,
 				0C5F1D0523C2E10B0032FAEA /* Santa Claus to tow.wav in Resources */,
 				0CBAC7FD23A3242C00B705B9 /* Assets.xcassets in Resources */,
+				0C53711B23C4D701009F3391 /* Ornament-512.png in Resources */,
 				0C5F1CEF23C157690032FAEA /* 04 Have Yourself a Merry Little Christmas final.mp3 in Resources */,
 				0CBAC7FB23A3242900B705B9 /* Main.storyboard in Resources */,
 				0C5F1CF123C196940032FAEA /* O Holy Night final.mp3 in Resources */,
