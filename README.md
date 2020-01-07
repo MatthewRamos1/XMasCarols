@@ -15,3 +15,7 @@ let name = John Appleseed"
 
 ![homescreen](Assets/homescreen1.png) 
 
+## Gif
+
+![gif](Assets/app.gif)
+
