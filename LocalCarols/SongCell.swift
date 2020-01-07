@@ -16,12 +16,12 @@ class SongCell: UITableViewCell {
     
     func configureCell(song: Song) {
         songNameLabel.text = song.name
-        switch song.id {
-        case 0, 3, 6:
+        switch true {
+        case song.id % 3 == 0:
             songBackground.image = UIImage(named: "0")
-        case 1, 4, 7:
+        case song.id % 3 == 1:
             songBackground.image = UIImage(named: "1")
-        case 2, 5, 8:
+        case song.id % 3 == 2:
             songBackground.image = UIImage(named: "2")
         default:
             songBackground.image = UIImage(systemName: "exclaimationmark.triangle")
