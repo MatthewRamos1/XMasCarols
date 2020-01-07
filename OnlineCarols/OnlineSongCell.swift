@@ -17,6 +17,20 @@ class OnlineSongCell: UITableViewCell {
     func configureCell(song: OnlineSong) {
         songNameLabel.text = song.trackName
         artistNameLabel.text = song.artistName
+        songImage.getImage(with: song.artworkUrl100, completion: { [weak self] (result) in
+            switch result {
+            case .failure:
+                DispatchQueue.main.async {
+                    self?.songImage.image = UIImage(systemName: "xmark.icloud" )
+                }
+            case .success(let image):
+                DispatchQueue.main.async {
+                    self?.songImage.image = image
+                }
+                
+            }
+            
+        })
     }
     
     
