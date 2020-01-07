@@ -19,6 +19,7 @@ class OCDetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        updateUI()
     }
     
     func updateUI() {

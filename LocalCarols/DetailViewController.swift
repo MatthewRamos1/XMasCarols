@@ -62,6 +62,12 @@ class DetailViewController: UIViewController {
         case 5:
             playBackgroundCarol(songFile: SongFile.santaClaus)
             imageView.image = UIImage(named: "2")
+        case 6:
+            imageView.image = UIImage(named: "0")
+        case 7:
+            imageView.image = UIImage(named: "1")
+        case 8:
+            imageView.image = UIImage(named: "2")
         default:
             imageView.image = UIImage(systemName: "exclaimationmark.triangle")
         }
