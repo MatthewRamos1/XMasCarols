@@ -230,8 +230,159 @@ Santa Claus is coming to town
 Santa Claus is coming to town
 Santa Claus is coming to town
 """, id: 5),
-    Song(name: "", lyrics: "", id: 6),
-    Song(name: "", lyrics: "", id: 7),
-    Song(name: "", lyrics: "", id: 8),
+    Song(name: "Little Drummer Bout", lyrics: """
+Come thy told me
+Pa rum pum pum-pum
+A newborn King to see
+Pa rum pum pum-pum
+Our finest gifts we bring
+Pa rum pum pum-pum
+To lay before the king
+Pa rum pum pum-pum
+Rum pum pum-pum
+Rum pum pum-pum
+So to honor Him
+Pa rum pum pum-pum
+When we come
+
+Little baby
+Pa rum pum pum-pum
+I am a poor boy too
+Pa rum pum pum-pum
+I have no gift to bring
+Pa rum pum pum-pum
+That's fit to give our King
+Pa rum pum pum-pum
+Rum pum pum-pum
+Rum pum pum-pum
+Shall I play for you
+Pa rum pum pum-pum
+On my drum
+
+Mary nodded
+Pa rum pum pum-pum
+The ox and lamb kept time
+Pa rum pum pum-pum
+I played my drum for Him
+Pa rum pum pum-pum
+I played my best for Him
+Pa rum pum pum-pum
+Rum pum pum-pum
+Rum pum pum-pum
+Then He smiled at me
+Pa rum pum pum-pum
+Me and my drum
+""", id: 6),
+    Song(name: "Jingle Bells", lyrics: """
+Dashing through the snow
+In a one-horse open sleigh
+O'er the fields we go
+Laughing all the way
+Bells on bobtails ring
+Making spirits bright
+What fun it is to ride and sing
+A sleighing song tonight
+
+Jingle bells, jingle bells
+Jingle all the way
+Oh, what fun it is to ride
+In a one-horse open sleigh, hey
+Jingle bells, jingle bells
+Jingle all the way
+Oh, what fun it is to ride
+In a one-horse open sleigh
+
+A day or two ago
+I thought I'd take a ride
+And soon, Miss Fanny Bright
+Was seated by my side
+The horse was lean and lank
+Misfortune seemed his lot
+He got into a drifted bank
+And then we got upsot
+
+Jingle bells, jingle bells
+Jingle all the way
+Oh, what fun it is to ride
+In a one-horse open sleigh, hey
+Jingle bells, jingle bells
+Jingle all the way
+Oh, what fun it is to ride
+In a one-horse open sleigh
+
+A day or two ago
+The story I must tell
+I went out on the snow
+And on my back I fell
+A gent was riding by
+In a one-horse open sleigh
+He laughed as there I sprawling lie
+But quickly drove away
+
+Jingle bells, jingle bells
+Jingle all the way
+Oh, what fun it is to ride
+In a one-horse open sleigh, hey
+Jingle bells, jingle bells
+Jingle all the way
+Oh, what fun it is to ride
+In a one-horse open sleigh
+
+Now the ground is white
+Go it while you're young
+Take the girls tonight
+And sing this sleighing song
+Just get a bobtailed bay
+Two forty as his speed
+Hitch him to an open sleigh
+And crack, you'll take the lead
+
+Jingle bells, jingle bells
+Jingle all the way
+Oh, what fun it is to ride
+In a one-horse open sleigh, hey
+Jingle bells, jingle bells
+Jingle all the way
+Oh, what fun it is to ride
+In a one-horse open sleigh
+""", id: 7),
+    Song(name: "Jingle Bell Rock", lyrics: """
+Jingle bell, jingle bell, jingle bell rock
+Jingle bells swing and jingle bells ring
+Snowin' and blowin' up bushels of fun
+Now, the jingle hop has begun
+
+Jingle bell, jingle bell, jingle bell rock
+Jingle bells chime in jingle bell time
+Dancin' and prancin' in Jingle Bell Square
+In the frosty air
+
+What a bright time, it's the right time
+To rock the night away
+Jingle bell time is a swell time
+To go glidin' in a one-horse sleigh
+
+Giddy-up jingle horse, pick up your feet
+Jingle around the clock
+Mix and a-mingle in the jinglin' feet
+That's the jingle bell rock
+
+Jingle bell, jingle bell, jingle bell rock
+Jingle bells chime in jingle bell time
+Dancin' and prancin' in Jingle Bell Square
+In the frosty air
+
+What a bright time, it's the right time
+To rock the night away
+Jingle bell time is a swell time
+To go glidin' in a one-horse sleigh
+
+Giddy-up jingle horse, pick up your feet
+Jingle around the clock
+Mix and a-mingle in the jinglin' feet
+That's the jingle bell
+That's the jingle bell
+That's the jingle bell rock
+""", id: 8),
     ]
 }
