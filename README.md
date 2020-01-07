@@ -13,5 +13,9 @@ let name = John Appleseed"
 
 ## Screenshot of the app
 
-![homescreen](Assets/homescreen.png) 
+![homescreen](Assets/homescreen1.png) 
+
+## Gif
+
+![gif](Assets/app.gif)
 
