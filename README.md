@@ -11,3 +11,7 @@ let name = John Appleseed"
 }
 ```
 
+## Screenshot of the app
+
+![homescreen](Assets/image) 
+
