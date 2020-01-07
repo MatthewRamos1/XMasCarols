@@ -200,6 +200,12 @@
                         <viewLayoutGuide key="safeArea" id="Vkp-hk-ook"/>
                     </view>
                     <navigationItem key="navigationItem" id="Eqs-iU-8Sc"/>
+                    <connections>
+                        <outlet property="albumNameLabel" destination="WNG-Ug-RzJ" id="lZv-TQ-60S"/>
+                        <outlet property="artistNameLabel" destination="Cnn-mS-KON" id="eNh-Ws-gIr"/>
+                        <outlet property="imageView" destination="uaO-6D-I0Q" id="eo9-kP-9W1"/>
+                        <outlet property="songNameLabel" destination="vsY-9M-XOC" id="Pvf-xV-zYk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="brl-wF-QmA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

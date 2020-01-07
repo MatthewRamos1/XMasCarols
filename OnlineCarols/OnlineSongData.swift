@@ -17,4 +17,5 @@ struct OnlineSong: Decodable {
     let artistName: String
     let artworkUrl100: String
     let primaryGenreName: String
+    let collectionName: String?
 }
