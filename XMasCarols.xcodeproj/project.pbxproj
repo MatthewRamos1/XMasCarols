@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0C574EFC23C37CD000588BF7 /* OnlineSongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C574EFB23C37CD000588BF7 /* OnlineSongCell.swift */; };
+		0C574EFE23C417D300588BF7 /* UIImageView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C574EFD23C417D300588BF7 /* UIImageView + Extensions.swift */; };
 		0C5E326023BC4A1E00705DD8 /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E325F23BC4A1E00705DD8 /* SongCell.swift */; };
 		0C5F1CE323BFEC150032FAEA /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5F1CE223BFEC150032FAEA /* NetworkHelper.swift */; };
 		0C5F1CE523BFEC3C0032FAEA /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5F1CE423BFEC3C0032FAEA /* AppError.swift */; };
@@ -33,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		0C574EFB23C37CD000588BF7 /* OnlineSongCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineSongCell.swift; sourceTree = "<group>"; };
+		0C574EFD23C417D300588BF7 /* UIImageView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extensions.swift"; sourceTree = "<group>"; };
 		0C5E325F23BC4A1E00705DD8 /* SongCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
 		0C5F1CE223BFEC150032FAEA /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		0C5F1CE423BFEC3C0032FAEA /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				0C5F1D0223C2DAB80032FAEA /* UIViewController + Alerts.swift */,
+				0C574EFD23C417D300588BF7 /* UIImageView + Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C574EFE23C417D300588BF7 /* UIImageView + Extensions.swift in Sources */,
 				0C5F1CFE23C2CD780032FAEA /* OCDetailViewController.swift in Sources */,
 				0C5F1D0323C2DAB80032FAEA /* UIViewController + Alerts.swift in Sources */,
 				0C5F1CE323BFEC150032FAEA /* NetworkHelper.swift in Sources */,
