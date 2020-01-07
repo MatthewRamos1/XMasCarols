@@ -20,4 +20,26 @@ class OCDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    func updateUI() {
+        guard let detailVCSong = song else {
+            fatalError("Error: Couldn't pull segued OnlineSong, check prepare for segue")
+        }
+        songNameLabel.text = detailVCSong.trackName
+        artistNameLabel.text = detailVCSong.artistName
+        albumNameLabel.text = detailVCSong.collectionName
+        imageView.getImage(with: detailVCSong.artworkUrl100, completion: { [weak self] (result) in
+            switch result {
+            case .failure:
+                DispatchQueue.main.async {
+                    self?.imageView.image = UIImage(systemName: "xmark.icloud")
+                }
+            case .success(let image):
+                DispatchQueue.main.async {
+                    self?.imageView.image = image
+                }
+            }
+        })
+        
+    }
 }
