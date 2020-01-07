@@ -34,9 +34,13 @@ class OnlineCarolsViewController: UIViewController {
             }
         }
         )
-        print(songs)
     }
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let ocDetailViewController = segue.destination as? OCDetailViewController, let indexPath = tableView.indexPathForSelectedRow else {
+            fatalError("Error: Check prepare for segue")
+        }
+        ocDetailViewController.song = songs[indexPath.row]
+    }
 }
 
 extension OnlineCarolsViewController: UITableViewDataSource {

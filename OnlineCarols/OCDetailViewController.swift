@@ -9,6 +9,8 @@
 import UIKit
 
 class OCDetailViewController: UIViewController {
+    
+    var song: OnlineSong?
 
     override func viewDidLoad() {
         super.viewDidLoad()
