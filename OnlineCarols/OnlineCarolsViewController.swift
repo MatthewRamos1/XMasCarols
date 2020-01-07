@@ -44,11 +44,11 @@ extension OnlineCarolsViewController: UITableViewDataSource {
         songs.count
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "onlineCell", for: indexPath) as? SongCell else {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "onlineCell", for: indexPath) as? OnlineSongCell else {
             fatalError("Error: Couldn't load custom cell SongCell")
         }
         let song = songs[indexPath.row]
-        cell.configureOnlineCell(song: song)
+        cell.configureCell(song: song)
         return cell
     }
 }
