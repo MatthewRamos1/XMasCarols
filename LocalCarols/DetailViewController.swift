@@ -45,7 +45,7 @@ class DetailViewController: UIViewController {
         }
         lyricText.text = detailVCSong.lyrics
         navigationItem.title = detailVCSong.name
-        switch detailVCSong.id {
+        switch detailVCSong.localID {
         case 0:
             imageView.image = UIImage(named: "0")
         case 1:

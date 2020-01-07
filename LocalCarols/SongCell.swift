@@ -17,11 +17,11 @@ class SongCell: UITableViewCell {
     func configureCell(song: Song) {
         songNameLabel.text = song.name
         switch true {
-        case song.id % 3 == 0:
+        case song.localID % 3 == 0:
             songBackground.image = UIImage(named: "0")
-        case song.id % 3 == 1:
+        case song.localID % 3 == 1:
             songBackground.image = UIImage(named: "1")
-        case song.id % 3 == 2:
+        case song.localID % 3 == 2:
             songBackground.image = UIImage(named: "2")
         default:
             songBackground.image = UIImage(systemName: "exclaimationmark.triangle")

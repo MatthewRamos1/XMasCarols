@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     var songs = [Song]()
+    var apiSongs = [Song]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self

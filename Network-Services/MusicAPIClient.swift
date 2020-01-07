@@ -35,5 +35,34 @@ struct MusicAPIClient {
             }
         }
     }
+    
+    static func postCarol (song: OnlineSong, completion: @escaping (Result<Bool, AppError>) -> ()) {
+            
+            let carolEndpointURLString = "https://5e14e7d6bce1d10014baeedf.mockapi.io/songs"
+            
+            guard let url = URL(string: carolEndpointURLString) else {
+                return
+        }
+        let apiSong = Song(name: song.trackName ?? "Unlisted Song", lyrics: nil, localID: Song.songs.count)
+            
+            do {
+                let data = try JSONEncoder().encode(apiSong)
+                var request = URLRequest(url: url)
+                request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+                request.httpBody = data
+                request.httpMethod = "POST"
+                
+                NetworkHelper.shared.performDataTask(with: request, completion: { (result) in
+                    switch result {
+                    case .failure(let appError):
+                        completion(.failure(.networkClientError(appError)))
+                    case .success:
+                        completion(.success(true))
+                    }
+                })
+            } catch {
+                completion(.failure(.encodingError(error)))
+            }
+        }
+    }
 
-}

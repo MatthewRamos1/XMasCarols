@@ -202,7 +202,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Vkp-hk-ook"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Eqs-iU-8Sc"/>
+                    <navigationItem key="navigationItem" id="Eqs-iU-8Sc">
+                        <barButtonItem key="rightBarButtonItem" title="Add to Local" id="Qaz-Ja-B7c">
+                            <connections>
+                                <action selector="postSongPressed:" destination="VeO-qu-BhA" id="xNW-7Y-iBN"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="albumNameLabel" destination="WNG-Ug-RzJ" id="lZv-TQ-60S"/>
                         <outlet property="artistNameLabel" destination="Cnn-mS-KON" id="eNh-Ws-gIr"/>

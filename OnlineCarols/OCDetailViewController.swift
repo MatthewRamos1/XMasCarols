@@ -16,7 +16,7 @@ class OCDetailViewController: UIViewController {
     @IBOutlet weak var albumNameLabel: UILabel!
     
     var song: OnlineSong?
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         updateUI()
@@ -42,5 +42,24 @@ class OCDetailViewController: UIViewController {
             }
         })
         
+    }
+    
+    @IBAction func postSongPressed(_ sender: UIBarButtonItem) {
+        guard let detailVCSong = song else {
+            fatalError("Error: Couldn't pull segued OnlineSong, check prepare for segue")
+        }
+        MusicAPIClient.postCarol(song: detailVCSong, completion: { [weak self] (result) in
+            switch result {
+            case .failure(let appError):
+                DispatchQueue.main.async {
+                    self?.showAlert(title: "Error: Could not read data", message: "\(appError)")
+                }
+            case .success:
+                DispatchQueue.main.async {
+                    self?.showAlert(title: "Song Posted", message: "This song has been added to your collection.")
+                }
+            }
+            }
+        )
     }
 }

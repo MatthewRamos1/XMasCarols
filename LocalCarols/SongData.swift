@@ -8,10 +8,10 @@
 
 import Foundation
 
-struct Song {
+struct Song: Codable {
     let name: String
-    let lyrics: String
-    let id: Int
+    let lyrics: String?
+    let localID: Int
     
     
     static let songs: [Song] = [Song(name: "We Wish You a Merry Christmas", lyrics: """
@@ -47,7 +47,7 @@ And a Happy new Year
 We wish you a Merry Christmas
 We wish you a Merry Christmas
 We wish you a Merry Christmas and a Happy New Year!
-""", id: 0),
+""", localID: 0),
     Song(name: "Deck the Halls", lyrics: """
         Deck the halls with boughs of holly
         Fa-la-la-la-la, la-la-la-la
@@ -75,7 +75,7 @@ We wish you a Merry Christmas and a Happy New Year!
         Fa-la-la, la-la-la, la-la-la
         Heedless of the wind and weather
         Fa-la-la-la-la, la-la-la-la
-        """, id: 1),
+        """, localID: 1),
     Song(name: "Frosty the Snowman", lyrics: """
 Frosty the snowman was a jolly happy soul
 With a corncob pipe and a button nose
@@ -122,7 +122,7 @@ Look at Frosty go
 Thumpety thump thump
 Thumpety thump thump
 Over the hills of snow!
-""", id: 2),
+""", localID: 2),
     Song(name: "O Holy Night", lyrics: """
 O Holy night! The stars are brightly shining
 It is the night of our dear Savior's birth
@@ -153,7 +153,7 @@ Let all within us Praise His Holy name
 Christ is the Lord; O praise His name forever!
 His power and glory evermore proclaim
 His power and glory evermore proclaim, id: 3)
-""", id: 3),
+""", localID: 3),
     Song(name: "Have Yourself a Merry Little Christmas", lyrics: """
 Have yourself a merry little Christmas
 Let your heart be light
@@ -173,7 +173,7 @@ If the fates allow
 Until then we'll have to muddle through somehow
 
 So have yourself a merry little Christmas now
-""", id: 4),
+""", localID: 4),
     Song(name: "Santa Claus is Coming to Town", lyrics: """
 You better watch out
 You better not cry
@@ -229,7 +229,7 @@ Santa Claus is coming, Santa Claus is coming to town
 Santa Claus is coming to town
 Santa Claus is coming to town
 Santa Claus is coming to town
-""", id: 5),
+""", localID: 5),
     Song(name: "Little Drummer Bout", lyrics: """
 Come thy told me
 Pa rum pum pum-pum
@@ -272,7 +272,7 @@ Rum pum pum-pum
 Then He smiled at me
 Pa rum pum pum-pum
 Me and my drum
-""", id: 6),
+""", localID: 6),
     Song(name: "Jingle Bells", lyrics: """
 Dashing through the snow
 In a one-horse open sleigh
@@ -345,7 +345,7 @@ Jingle bells, jingle bells
 Jingle all the way
 Oh, what fun it is to ride
 In a one-horse open sleigh
-""", id: 7),
+""", localID: 7),
     Song(name: "Jingle Bell Rock", lyrics: """
 Jingle bell, jingle bell, jingle bell rock
 Jingle bells swing and jingle bells ring
@@ -383,6 +383,6 @@ Mix and a-mingle in the jinglin' feet
 That's the jingle bell
 That's the jingle bell
 That's the jingle bell rock
-""", id: 8),
+""", localID: 8),
     ]
 }
